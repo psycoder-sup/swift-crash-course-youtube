@@ -137,6 +137,10 @@ class Tesla {
     ) {
         self.init(model: model, year: 2023)
     }
+    
+    /// Diferences between `convenience init` and `init`.
+    /// https://stackoverflow.com/questions/40093484/what-is-the-difference-between-convenience-init-vs-init-in-swift-explicit-examp
+    ///
 }
 
 class TeslaModelY: Tesla {
